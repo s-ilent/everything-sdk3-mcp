@@ -184,8 +184,9 @@ client requests an older revision. It does not claim `2026-07-28`, whose per-req
 
 ## License
 
-MIT. The Everything SDK is distributed separately by voidtools under its own MIT
-license; see [LICENSE](LICENSE).
+MIT — see [LICENSE](LICENSE). The Everything SDK is distributed separately by
+voidtools under its own MIT license; see
+[THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
 
 ## References
 
