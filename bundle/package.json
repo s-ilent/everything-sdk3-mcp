@@ -1,0 +1,13 @@
+{
+  "name": "dsh-everything-mcp",
+  "version": "0.3.0",
+  "description": "Read-only Everything 1.5 file search for DSH, backed by the official SDK v3 named-pipe IPC.",
+  "files": [
+    "cordis.patch.yml"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  }
+}

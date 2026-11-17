@@ -1,0 +1,65 @@
+{
+  "name": "everything-sdk3-mcp",
+  "version": "0.3.0",
+  "description": "Read-only MCP server that searches the local voidtools Everything 1.5 index through the official SDK v3 named-pipe IPC.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "everything",
+    "voidtools",
+    "search",
+    "file-search",
+    "windows",
+    "sdk3"
+  ],
+  "license": "MIT",
+  "author": "Arukas",
+  "type": "module",
+  "main": "./everything.mjs",
+  "exports": {
+    ".": "./everything.mjs",
+    "./protocol": "./mcp-protocol.mjs"
+  },
+  "bin": {
+    "everything-sdk3-mcp": "./bin/cli.mjs"
+  },
+  "files": [
+    "bin/",
+    "everything.mjs",
+    "mcp-protocol.mjs",
+    "server.mjs",
+    "README.md",
+    "CHANGELOG.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20"
+  },
+  "os": [
+    "win32"
+  ],
+  "cpu": [
+    "x64"
+  ],
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node test/run.mjs",
+    "test:live": "node test/live.mjs",
+    "build:runtime": "node scripts/build-runtime.mjs",
+    "prepublishOnly": "npm test"
+  },
+  "dependencies": {
+    "koffi": "3.3.7"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/s-ilent/everything-sdk3-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/s-ilent/everything-sdk3-mcp/issues"
+  },
+  "homepage": "https://github.com/s-ilent/everything-sdk3-mcp#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}

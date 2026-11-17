@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "everything": {
+      "command": "npx",
+      "args": ["-y", "everything-sdk3-mcp"],
+      "env": {
+        "EVERYTHING_SDK3_DLL_PATH": "C:\\Tools\\Everything3_x64.dll"
+      }
+    }
+  }
+}

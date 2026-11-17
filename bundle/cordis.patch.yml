@@ -1,0 +1,11 @@
+- insert:
+    - id: mcp-everything
+      name: '@deepseek-ai/dsh-mcp-client'
+      config:
+        serverName: everything
+        transport: stdio
+        command: 'C:\Users\Arukas\.dsh\dsh-runtimes\dsh-primary-runtime\dependencies\node\bin\node.exe'
+        args:
+          - 'C:\Users\Arukas\Documents\deepseek-harness\default-workspace\everything-mcp-runtime\server.mjs'
+        cwd: 'C:\Users\Arukas\Documents\deepseek-harness\default-workspace\everything-mcp-runtime'
+        toolCallTimeoutMs: 60000

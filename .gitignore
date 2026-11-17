@@ -1,0 +1,9 @@
+node_modules/
+.npm-cache/
+*.log
+*.tgz
+.DS_Store
+
+# The SDK DLL is redistributed by voidtools, not by this repository.
+# Obtain it from https://github.com/voidtools/everything_sdk3/releases
+vendor/Everything3_x64.dll
